@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="web/css/style.css">
+    <script src="register.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="web/img/logonew.png" alt="Логотип">
+        <nav>
+            <li><a href="index.html" class="main">Главная</a></li>
+            <li><a href="onas.html" class="main">О нас</a></li>
+            <li><a href="catalog.html" class="main">Каталог</a></li>
+        </nav>
+        <div class="account">
+            <input type="checkbox" id="account-toggle" class="account-toggle">
+            <label for="account-toggle" class="account-icon">
+                <img src="web/img/account-icon.png" alt="Профиль" class="account-icon">
+            </label>
+            <div class="dropdown-menu">
+                <nav>
+                    <li><a href="profil.html" class="main-20">Профиль</a></li>
+                    <li><a href="auth.html" class="main-20">Войти</a></li>
+                    <li><a href="register.html" class="main-20">Регистрация</a></li>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="register">
+        <div class="register-container">
+            <h1 class="register-title">Регистрация</h1>
+            <form id="form-register">
+                <div class="input-register">
+                    <div class="regist">
+                        <label for="email" class="input-label">Почта</label>
+                    </div>
+                    <input type="email" id="email" class="input-field" placeholder="Введите почту" required>
+                    <p id="email-error"></p>
+                </div>
+
+                <div class="input-register">
+                    <div class="regist">
+                        <label for="login" class="input-label">Логин</label>
+                    </div>
+                    <input type="login" id="login" class="input-field" placeholder="Введите логин" required>
+                    <p id="login-error"></p>
+                </div>
+
+                <div class="input-register">
+                    <div class="regist">
+                        <label for="password" class="input-label">Пароль</label>
+                    </div>
+                    <input type="password" id="password" class="input-field" placeholder="Введите пароль" required>
+                    <p id="password-error"></p>
+                </div>
+
+                <div class="input-register">
+                    <div class="regist">
+                        <label for="password-repeat" class="input-label">Пароль</label>
+                    </div>
+                    <input type="password" id="password-repeat" class="input-field" placeholder="Повторите пароль"
+                        required>
+                    <p id="password-repeat-error"></p>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="member" id="member">
+                    <label for="member">Запомнить меня</label>
+                </div>
+                <div class="register-link">
+                    <button type="submit" class="register-btn" id="register-btn">Зарегистрироваться</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-style">
+            <div class="footer-1">
+                <p>Каталог</p>
+                <p>О нас</p>
+            </div>
+            <div class="footer-3">
+                <p>Контакты</p>
+                <p>+7(800)555-35-35</p>
+                <p>velvetberries@gmail.com</p>
+            </div>
+        </div>
+
+
+        <div class="footer-2">
+            <p>&copy;Velvet Berries©2020-2025</p>
+        </div>
+    </footer>
+</body>
+
+</html>
