@@ -129,7 +129,7 @@ header>nav a:hover {
 .hero-container {
     height: 700px;
     width: auto;
-    background-image: url('web/img/girlHome.svg');
+    background-image: url('../img/girlHome.svg');
 }
 
 .zagolovok {
@@ -173,7 +173,7 @@ header>nav a:hover {
     font-family: 'PoiretOne';
     height: 80px;
     width: auto;
-    background-image: url('web/img/line.png');
+    background-image: url('../img/line.png');
 }
 
 .backgoundless1 {
@@ -183,7 +183,7 @@ header>nav a:hover {
     font-family: 'PoiretOne';
     height: 80px;
     width: auto;
-    background-image: url('web/img/line.png');
+    background-image: url('../img/line.png');
 
 }
 
@@ -193,7 +193,7 @@ header>nav a:hover {
     font-family: 'PoiretOne';
     height: 80px;
     width: auto;
-    background-image: url('web/img/line.png');
+    background-image: url('../img/line.png');
 }
 
 .backgoundless3 {
@@ -202,7 +202,7 @@ header>nav a:hover {
     font-family: 'PoiretOne';
     height: 80px;
     width: auto;
-    background-image: url('web/img/line.png');
+    background-image: url('../img/line.png');
 }
 
 .contain {
@@ -380,7 +380,7 @@ header>nav a:hover {
 
 /*авторизация жоская*/
 .auth {
-    background-image: url('web/img/wrappers.png');
+    background-image: url('../img/wrappers.png');
     height: 700px;
     background-size: cover;
 
@@ -516,7 +516,7 @@ header>nav a:hover {
 
 /*Регистрация*/
 .register {
-    background-image: url('web/img/wrappers.png');
+    background-image: url('../img/wrappers.png');
     width: auto;
     display: flex;
     justify-content: center;
@@ -698,7 +698,7 @@ header>nav a:hover {
 
 /*каталог*/
 .catalog {
-    background-image: url('web/img/wrappers.png');
+    background-image: url('../img/wrappers.png');
     width: auto;
 }
 
@@ -745,7 +745,7 @@ header>nav a:hover {
 
 /*профиль*/
 .profil {
-    background-image: url('web/img/wrappers.png');
+    background-image: url('../img/wrappers.png');
     height: 700px;
     background-size: cover;
     display: flex;
@@ -1256,3 +1256,4 @@ footer {
     width: 150px;
 
 }
+
